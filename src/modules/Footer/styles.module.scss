@@ -1,0 +1,9 @@
+.footer {
+    height: 2rem;
+    width: 100%;
+
+    &__text {
+        font-size: var(--fs-16);
+        color: var(--text-color-6);
+    }
+}

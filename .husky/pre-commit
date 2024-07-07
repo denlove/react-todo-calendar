@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# prettier, eslint, lint-staged for staged changes, and others 
+yarn lint-staged
