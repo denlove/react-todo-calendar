@@ -1,0 +1,14 @@
+.month {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: right;
+
+    &__name {
+        margin: auto;
+        color: var(--text-color-2);
+
+        font: {
+            size: var(--fs-20);
+        }
+    }
+}

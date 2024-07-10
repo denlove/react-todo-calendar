@@ -1,3 +1,5 @@
+@use './styles/mixins';
+
 :root {
     --bg-color-1: hsl(0, 0%, 17%);
     --bg-color-2: hsla(0, 0%, 0%, 0.2);
@@ -18,6 +20,13 @@
     --fs-30: 30px;
     --fs-40: 40px;
 
+    --body-height: calc(100vh - 6rem);
+
+    --calendar-width: clamp(18.75rem, 12.171rem + 35.088vw, 43.75rem);
+    --item-gap: calc(var(--calendar-width) * 0.15 / 6);
+    --item-width: calc((var(--calendar-width) - var(--item-gap) * 6) / 7);
+    --item-height: 4rem;
+
     --red-border: 1px solid red;
 }
 
@@ -28,9 +37,16 @@
     padding: 0;
     border: none;
     outline: none;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
     background-color: var(--bg-color-1);
+}
+
+menu,
+ul,
+ol {
+    list-style: none;
 }

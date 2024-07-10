@@ -1,0 +1,29 @@
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    &__item {
+        width: fit-content;
+    }
+
+    &__tool {
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        background-color: var(--bg-color-2);
+        cursor: pointer;
+        color: var(--text-color-5);
+        transition: all 0.1s linear;
+
+        font: {
+            size: var(--fs-18);
+        }
+
+
+        &:hover {
+            transform: scale(0.95);
+            color: var(--text-color-3);
+        }
+    }
+}
