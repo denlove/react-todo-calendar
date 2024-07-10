@@ -1,4 +1,4 @@
-import CalendarBlock from '../../modules/CalendarBlock'
+import CalendarBlock from '../../models/CalendarBlock'
 
 const Home = () => {
     return <CalendarBlock />

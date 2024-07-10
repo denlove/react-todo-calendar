@@ -1,0 +1,9 @@
+.calendar {
+    width: fit-content;
+    margin: auto;
+
+    &__content {
+        width: var(--calendar-width);
+        margin: 0 1rem;
+    }
+}

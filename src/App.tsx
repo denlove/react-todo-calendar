@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Footer from './modules/Footer'
-import Header from './modules/Header'
+import Footer from './models/Footer'
+import Header from './models/Header'
 import MainWrapper from './wrappers/MainWrapper'
 
 const App = () => {

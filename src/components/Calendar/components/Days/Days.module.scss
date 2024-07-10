@@ -1,0 +1,31 @@
+.days {
+    width: 100%;
+
+    &__list {
+        margin: 1rem 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--item-gap);
+    }
+
+    &__days {
+        width: var(--item-width);
+        height: var(--item-height);
+        color: var(--text-color-4);
+        padding: 1rem;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        border-radius: 1rem;
+        user-select: none;
+
+        &:hover {
+            background-color: var(--bg-color-2);
+        }
+    }
+
+    &__days_today {
+        color: var(--text-color-2);
+        font-weight: bold;
+    }
+}
